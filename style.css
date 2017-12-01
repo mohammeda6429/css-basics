@@ -10,50 +10,44 @@
     left: 0;
     right: 0;
 }
-hr {
+body{
+   font-size:1.5em; 
+   font-family: "Crimson Text", "Arial";
+   line-height: 1.5;
+}
+h1{
+     font-size: 72px;
+}
+h1,h2{
+     font-family: "Oswald", "Helvetica Neue";
+        color: #2884C3;
+}
+h1,h2{
+    text-align: center
+      
+}
+ hr {
     border: 0;
     height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
-h1 {
-    font-size: 72px
-}
-hr {
-    border: 0;
-    height: 1px
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc)
-}
-h1, h2 {
-    font-family: "Oswald", "Helvetica Neue"
-}
-h1, h2 {
-    text-align: font color #2884c3
-    color:#2884C3
-    
-}
-body{
-    font-size: 1.5em
-    font-family: "Crimson Text", "Arial";
-    line-height: 1.5
-}
-code{
-    color: #CE234C
-    background-color: lightgray;
+code {
+    color: #CE234C;
+    background-color:lightgray;
 }
 container{
-    background-color: lightgray
+    background-color:lightgray;
 }
-.snippet{
+ .snippet {
     background: lightgray;
 }
 a{
-    color: green
+    color:green;
 }
-a:hoover{
-    color: green
+a:hover {
+    color: red;
 }
-a:active {
-    color: blue
+a:active{
+    color:blue;
 }
